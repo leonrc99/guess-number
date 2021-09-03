@@ -19,23 +19,23 @@
 <body>
     
     <header>
-        <a href="#"><h1>Advinhe-me</h1></a>
+        <a href=""><h1>Advinhe-me</h1></a>
     </header>
 
     <main class="container">
-
-        <form>
-            <label for="kick">Digite um número: </label>
-            <input type="number" id="kick" max="10" placeholder="0">
-            <button type="submit">Jogar!</button>
-        </form>
 
         <section class="result-box" id="result">
             <h2 id="status">Adivinhe o número que estou pensando! :D</h2>
             <span id="attempt">Tentativas: 0</span>
         </section>
 
-        <button id="btnRestart">Jogar novamente</button>
+        <form id="form">
+            <label for="kick">Digite um número de 0 a 100 </label>
+            <input type="number" id="kick" max="100" placeholder="0">
+            <button type="submit">Jogar!</button>
+        </form>        
+
+        <button id="btnRestart" onclick="restart()">Jogar novamente</button>
 
     </main>
 
