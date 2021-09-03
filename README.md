@@ -7,6 +7,8 @@
 
 Projeto feito com Javascript puro para praticar conhecimentos adquiridos.
 
+Você pode jogar acessando: https://guess-number-rho.vercel.app
+
 <h2 align="center">
     Tela inicial
     <img src="img/default.png">
