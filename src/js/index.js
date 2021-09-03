@@ -40,11 +40,17 @@ function handleSubmit(e) {
         clear ();
     } else if (numberDrawn > kick){
         status.innerHTML = 'O número é maior!';
-        status.style.color = '#de4251';
+        result.style.transition = '0.4s';
+        result.style.backgroundColor = '#de4251';
+        result.style.color = '#fff';
+        status.style.color = '#fff';
         clear();
     } else if (numberDrawn < kick) {
         status.innerHTML = 'O número é menor!';
-        status.style.color = '#de4251';
+        result.style.transition = '0.4s';
+        result.style.backgroundColor = '#de4251';
+        result.style.color = '#fff';
+        status.style.color = '#fff';
         clear();
     }
 };
